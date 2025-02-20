@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link href="css/layout2.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <nav class="nav-container">
+        <div class="nav-item">ShoeShop</div>
+        <div style="flex-grow: 1"></div>
+        <div class="nav-item">Products</div>
+        <div class="nav-item">Services</div>
+    </nav>
+
+    <div class="main-background">
+        <h4 class="main-title">Buy Our Shoes!</h4>
+        <p class="main-content">
+            Lorem ipsum dolor sit amet, consectetur adipisicing left. Blanditiis non launantium unde distinctio
+        </p>
+        <button class="main-button">버튼</button>
+    </div>
+
+    <div class="explain-box">
+        <h4>How we design our shoes</h4>
+        <p class="pseudo">Lorem ipsum dolor sit amet, consectetur adipisicing left. Aliquid eius, doloremque accusantium, saepe inventore illo necessitatibus cum 
+            eligendi ad sint molestias
+        </p>
+    </div>
+
+    <div class="product-container">
+        <div>
+            <i class="fas fa-shopping-cart"></i>
+            <h4>Fast Shipping</h4>
+            <p>lorem ipsum</p>
+        </div>
+        <div>
+            <i class="fas fa-globe-asia"></i>
+            <h4>Good Service</h4>
+            <p>Expect a lifelong service</p>
+        </div>
+        <div>
+            <i class="fas fa-user-alt"></i>
+            <h4>Free Coupons</h4>
+            <p>With new welcome gifts</p>
+        </div>
+        <div>
+            <i class="fas fa-tshirt"></i>
+            <h4>New Products</h4>
+            <p>See monthly new products</p>
+        </div>
+    </div>
+
+    <progress value="0.7"></progress>
+    <input type="range" style="background: red">
+
+    <style>
+        progress {
+            appearance: none;
+        }
+        ::-webkit-progress-bar {
+            background: yellow;
+            border-radius: 10px;
+        }
+        ::-webkit-progress-value {
+            background-color: orange;
+            border-radius: 10px;
+        }
+
+        input[type=range] {
+            appearance: none;
+        }
+
+        input[type=range]::-webkit-slider-thumb {
+            appearance: none;
+            background: red;
+            width: 50px;
+            height: 50px;
+        }
+
+    </style>
+
+    <div class="form-background">
+        <div class="form-white">
+            <form>
+                <div class="w-100">
+                    <h3>Contact Us</h3>
+                    <p>Your email</p>
+                    <input class="form-input" type="email">
+                </div>
+                <div class="w-50">
+                    <p>First Name</p>
+                    <input class="form-input" type="text">
+                </div>
+                <div class="w-50">
+                    <p>Last Name</p>
+                    <input class="form-input" type="text">
+                </div>
+                <div style="clear:both"></div>
+
+                <div>
+                    <p class="w-100">Message</p>
+                    <textarea class="form-input"></textarea>
+                </div>
+
+                <div>
+                    <input id="sub" type="checkbox">
+                    <label for="sub">Subscribe</label>
+                    <button class="yellow-button">SEND</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</body>
+</html>
